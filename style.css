@@ -1,0 +1,31 @@
+#mapid {
+  width: 70%; 
+  height: 400px; 
+  margin: auto
+}
+
+#mapContainer, #svgContainer {
+  display: flex;
+  border: 1px solid #777;
+  margin-bottom: 2rem;
+}
+
+#title {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+    font-family: "Open Sans";
+    margin: 0;
+}
+
+#main {
+    margin: 20px;
+}
+
+#svgContainer svg {
+  display: block;
+  margin: auto;
+}
+
